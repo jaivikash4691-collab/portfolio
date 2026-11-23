@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff004f" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#ff004f" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#080808" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2438"/>
+      <stop offset="100%" stop-color="#0f111a"/>
+    </linearGradient>
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff004f"/>
+      <stop offset="100%" stop-color="#ff5577"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow Backdrop -->
+  <circle cx="200" cy="200" r="190" fill="url(#glowGrad)"/>
+
+  <!-- Geometric Decorative Cyber Ring -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#232838" stroke-width="2"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#crimsonGrad)" stroke-width="3" stroke-dasharray="140 30 70 40"/>
+  <circle cx="200" cy="200" r="135" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="40 90 20 60" opacity="0.6"/>
+
+  <!-- Portrait Silhouette Container -->
+  <circle cx="200" cy="200" r="125" fill="url(#avatarGrad)" stroke="#30384f" stroke-width="3"/>
+
+  <!-- Stylized Developer Avatar Silhouette -->
+  <!-- Shoulders / Torso / Hoodie -->
+  <path d="M110 325 C110 260, 150 240, 200 240 C250 240, 290 260, 290 325 Z" fill="#141824"/>
+  <!-- Hoodie Collar / Accent V-shape -->
+  <path d="M170 242 L200 280 L230 242" fill="none" stroke="url(#crimsonGrad)" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="185" y="200" width="30" height="45" rx="10" fill="#f1a980"/>
+
+  <!-- Head Base -->
+  <ellipse cx="200" cy="165" rx="50" ry="60" fill="#f8bb93"/>
+
+  <!-- Modern Hair Cut -->
+  <path d="M145 155 C145 105, 175 95, 200 95 C230 95, 255 110, 255 155 C245 130, 220 120, 200 120 C180 120, 155 135, 145 155 Z" fill="#191924"/>
+
+  <!-- Developer Glasses -->
+  <rect x="160" y="152" width="32" height="22" rx="6" fill="#151722" stroke="url(#neonCyan)" stroke-width="2.5"/>
+  <rect x="208" y="152" width="32" height="22" rx="6" fill="#151722" stroke="url(#neonCyan)" stroke-width="2.5"/>
+  <line x1="192" y1="162" x2="208" y2="162" stroke="url(#neonCyan)" stroke-width="2.5"/>
+  <line x1="148" y1="162" x2="160" y2="162" stroke="#4facfe" stroke-width="2"/>
+  <line x1="240" y1="162" x2="252" y2="162" stroke="#4facfe" stroke-width="2"/>
+
+  <!-- Subtle Eyes behind glasses -->
+  <circle cx="176" cy="163" r="3.5" fill="#ffffff"/>
+  <circle cx="224" cy="163" r="3.5" fill="#ffffff"/>
+
+  <!-- Confident Smile -->
+  <path d="M188 196 Q200 206 212 196" fill="none" stroke="#b26d52" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Floating Over-ear Developer Headset -->
+  <path d="M142 165 C132 150, 132 120, 155 105 C175 92, 225 92, 245 105 C268 120, 268 150, 258 165" fill="none" stroke="#ff004f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="135" y="150" width="14" height="30" rx="6" fill="#ff004f"/>
+  <rect x="251" y="150" width="14" height="30" rx="6" fill="#ff004f"/>
+
+  <!-- Code Symbols floating -->
+  <text x="60" y="120" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="bold" fill="#ff004f" opacity="0.85">&lt;/&gt;</text>
+  <text x="315" y="140" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="bold" fill="#00f2fe" opacity="0.85">{ ; }</text>
+  <text x="65" y="270" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="bold" fill="#ff3366" opacity="0.75">&lt;React /&gt;</text>
+  <text x="290" y="280" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="bold" fill="#00f2fe" opacity="0.75">SQL:2026</text>
+</svg>
+
